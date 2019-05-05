@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.js"
+    integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+    crossorigin="anonymous"></script>
+
+    <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    
+    
+
+</head>
+<body>
+
+
+
+<div class="container">    
+
+    <h1>Ultimate Movie Trivia</h1>
+
+    <br>
+
+    <button id="button">Start Game</button>
+</div>
+
+  <div class="timeCounter hidden">
+      <h2>Time Has Started</h2>
+  </div>
+
+    <div class="questions hidden" name= "quiz">
+
+      <div id="question1">
+
+        <h2>1. Who played Andy Dufresne in "The Shawshank Repemption"?</h2>
+
+        <br>
+
+        <input type="radio" name="q1" value = "Brad Pitt">Brad Pitt</input>
+        <input type="radio" name="q1" value = "Tim Robbins">Tim Robbins</input> 
+        <input type="radio" name="q1" value = "Micheal Keaton">Micheal Keaton</input> 
+        <input type="radio" name="q1" value = "Harrison Ford">Harrison Ford</input>
+
+
+      </div>
+
+      <br>
+
+
+      <div id="question2">
+
+        <h2>2. What is the Dude's favorite drink in "The Big Lebowski"?</h2>
+
+        <br>
+
+        <input type="radio" id="mc" name="q2" value = "Gin and Tonic">Gin and Tonic </input>
+        <input type="radio" id="mc" name="q2" value = "Pina Colada">Pina Colada </input>
+        <input type="radio" id="mc" name="q2" value = "Bloody Mary">Bloody Mary </input>
+        <input type="radio" id="mc" name="q2" value = "White Russian">White Russian </input> 
+      
+    
+      </div>
+
+      <br>
+
+      <div id="question3">
+
+         <h2>3. In the "Star Wars" movies what is the name of the planet where Yoda is exiled to? </h2>
+
+         <br>
+
+         <input type="radio" name="q3" id="mc" value = "Dagobah">Dagobah </input> 
+         <input type="radio" name="q3" id="mc" value = "Hoth">Hoth </input>
+         <input type="radio" name="q3" id="mc" value = "Coruscant">Coruscant </input> 
+         <input type="radio" name="q3" id="mc" value = "Kashyyyk">Kashyyyk </input>
+        
+        
+      </div>
+
+      <br>
+
+     <div id="question4">
+
+        <h2>4. In the movie "The Sandlot" what is the name of the narrator?</h2>
+
+        <br>
+
+        <input type="radio" name="q4" id="mc" value = "Squints">Squints</input> 
+        <input type="radio" name="q4" id="mc" value = "Benny">Benny </input>
+        <input type="radio" name="q4" id="mc" value = "Smalls">Smalls </input>
+        <input type="radio" name="q4" id="mc" value = "Ham">Ham </input>
+            
+      </div>
+
+    <br>
+
+    <div id="question5">
+
+         <h2>5. In "Forrest Gump" which of these does Forrest not do with his Bubba Gump money?</h2>
+
+         <br>
+
+      <input type="radio" id="mc" name="q5" value = "Gives Bubb's share to his mother">Gives Bubb's share to his mother </input> 
+      <input type="radio" id="mc" name="q5" value = "Invests in Apple">Invests in Apple  </input> 
+      <input type="radio" id="mc" name="q5" value = "Builds a hospital">Builds a hospital  </input> 
+      <input type="radio" id="mc" name="q5" value = "Renovates a church">Renovates a church </input> 
+               
+    </div>
+
+
+        <br>
+
+    <div id="question6">
+
+     <h2>6. In the movie "Field of Dreams" what city is Moonlight Graham from?</h2>
+
+      <br>
+
+      <input type="radio" id="mc" name="q6" value = "Omaha, NE">Omaha, NE </input>
+      <input type="radio" id="mc" name="q6" value = "Davenport, IA">Davenport, IA </input>
+      <input type="radio" id="mc" name="q6" value = "Chisolm, MN">Chisolm, MN </input>
+      <input type="radio" id="mc" name="q6" value = "Dyersville, IA">Dysersville, IA </input> 
+                    
+    </div>
+
+      <br>
+
+     <div id="question7">
+
+     <h2>7. In the move "The Matrix" what is Neo's nickname?</h2>
+
+     <br>
+
+      <input type="radio" id="mc" name="q7" value = "The One">The One </input> 
+      <input type="radio" id="mc" name="q7" value = "The Oracle">The Oracle </input> 
+      <input type="radio" id="mc" name="q7" value = "Morpheous">Morepheous </input> 
+      <input type="radio" id="mc" name="q7" value = "The Agent">The Agent </input> 
+                        
+    </div>
+
+
+    <br>
+
+    <div id="question8">
+
+      <h2>8. What does William Wallace yell at the end of the "Braveheart"?</h2>
+
+      <br>
+
+        <input type="radio" id="mc" name="q8 "value = "Victory">"Victory" </input>
+        <input type="radio" id="mc" name="q8" value = "Freedom">"Freedom" </input>
+        <input type="radio" id="mc" name="q8" value = "Edward">"Edward" </input>
+        <input type="radio" id="mc" name="q8" value = "Vengence">"Vengence" </input>
+    
+    </div>
+
+       <br>
+
+      <button id="buttonSubmit">Submit</button>
+
+  </div> 
+
+
+    
+
+
+
+
+
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>  
+ 
+</body>
+</html>
